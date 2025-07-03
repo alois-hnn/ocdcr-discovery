@@ -11,6 +11,12 @@
         "ocel:version": "1.0",
         "ocel:ordering": "timestamp"
     },
+    "ocel:global-event": {
+        "ocel:activity": "__INVALID__"
+    },
+    "ocel:global-object": {
+        "ocel:type": "__INVALID__"
+    },
     "ocel:events": {
         "0": {
             "ocel:activity": "Create Purchase Requisition",

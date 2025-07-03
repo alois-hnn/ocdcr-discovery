@@ -1,0 +1,138 @@
+{
+    "ocel:global-log": {
+        "ocel:attribute-names": [
+            "event_id"
+        ],
+        "ocel:object-types": [
+            "Item",
+            "Order"
+        ],
+        "ocel:version": "1.0",
+        "ocel:ordering": "timestamp"
+    },
+    "ocel:global-event": {
+        "ocel:activity": "__INVALID__"
+    },
+    "ocel:global-object": {
+        "ocel:type": "__INVALID__"
+    },
+    "ocel:events": {
+        "1": {
+            "ocel:activity": "Create Order",
+            "ocel:timestamp": "2024-01-01T09:00:00",
+            "ocel:omap": [
+                "O1"
+            ],
+            "ocel:vmap": {
+                "event_id": "0",
+                "start_timestamp": "2024-01-01 09:00:00"
+            }
+        },
+        "2": {
+            "ocel:activity": "Add Item",
+            "ocel:timestamp": "2024-01-01T09:05:00",
+            "ocel:omap": [
+                "I1"
+            ],
+            "ocel:vmap": {
+                "event_id": "1",
+                "start_timestamp": "2024-01-01 09:05:00"
+            }
+        },
+        "3": {
+            "ocel:activity": "Link Item to Order",
+            "ocel:timestamp": "2024-01-01T09:06:00",
+            "ocel:omap": [
+                "O1"
+            ],
+            "ocel:vmap": {
+                "event_id": "2",
+                "start_timestamp": "2024-01-01 09:06:00"
+            }
+        },
+        "4": {
+            "ocel:activity": "Ship Order",
+            "ocel:timestamp": "2024-01-01T10:00:00",
+            "ocel:omap": [
+                "O1"
+            ],
+            "ocel:vmap": {
+                "event_id": "3",
+                "start_timestamp": "2024-01-01 10:00:00"
+            }
+        },
+        "5": {
+            "ocel:activity": "Create Order",
+            "ocel:timestamp": "2024-01-01T11:00:00",
+            "ocel:omap": [
+                "O2"
+            ],
+            "ocel:vmap": {
+                "event_id": "4",
+                "start_timestamp": "2024-01-01 11:00:00"
+            }
+        },
+        "6": {
+            "ocel:activity": "Add Item",
+            "ocel:timestamp": "2024-01-01T11:10:00",
+            "ocel:omap": [
+                "I2"
+            ],
+            "ocel:vmap": {
+                "event_id": "5",
+                "start_timestamp": "2024-01-01 11:10:00"
+            }
+        },
+        "7": {
+            "ocel:activity": "Link Item to Order",
+            "ocel:timestamp": "2024-01-01T11:11:00",
+            "ocel:omap": [
+                "O2"
+            ],
+            "ocel:vmap": {
+                "event_id": "6",
+                "start_timestamp": "2024-01-01 11:11:00"
+            }
+        },
+        "8": {
+            "ocel:activity": "Ship Order",
+            "ocel:timestamp": "2024-01-01T12:00:00",
+            "ocel:omap": [
+                "O2"
+            ],
+            "ocel:vmap": {
+                "event_id": "7",
+                "start_timestamp": "2024-01-01 12:00:00"
+            }
+        },
+        "9": {
+            "ocel:activity": "Accept",
+            "ocel:timestamp": "2024-01-01T12:10:00",
+            "ocel:omap": [
+                "O2"
+            ],
+            "ocel:vmap": {
+                "event_id": "8",
+                "start_timestamp": "2024-01-01 12:10:00"
+            }
+        }
+    },
+    "ocel:objects": {
+        "O1": {
+            "ocel:type": "Order",
+            "ocel:ovmap": {}
+        },
+        "I1": {
+            "ocel:type": "Item",
+            "ocel:ovmap": {}
+        },
+        "O2": {
+            "ocel:type": "Order",
+            "ocel:ovmap": {}
+        },
+        "I2": {
+            "ocel:type": "Item",
+            "ocel:ovmap": {}
+        }
+    }
+}
